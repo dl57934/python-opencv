@@ -1,13 +1,14 @@
-import cv2 as cv 
-import numpy as np
+import cv2
 
-def showImage():
-    imgfile = "./images/블랙팬서.jpg"
-    img = cv.imread(imgfile,cv.IMREAD_COLOR)
+fname = 'images/blackPanther.jpg'
 
-    cv.imshow('model',img)
-    cv.waitKey(0)
-    cv.destroyAllWindows()
+original = cv2.imread(fname, cv2.IMREAD_COLOR)
+gray = cv2.imread(fname, cv2.IMREAD_GRAYSCALE)
+unchange = cv2.imread(fname, cv2.IMREAD_UNCHANGED)
 
-showImage()
+cv2.imshow('Original', original)
+cv2.imshow('Gray', gray)
+cv2.imshow('Unchange', unchange)
 
+cv2.waitKey(0)
+cv2.destroyAllWindows()
