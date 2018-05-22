@@ -1,14 +1,12 @@
 import cv2
+import matplotlib.pyplot as plt
+import numpy as np
+
 
 fname = 'images/blackPanther.jpg'
 
-original = cv2.imread(fname, cv2.IMREAD_COLOR)
-gray = cv2.imread(fname, cv2.IMREAD_GRAYSCALE)
-unchange = cv2.imread(fname, cv2.IMREAD_UNCHANGED)
-
-cv2.imshow('Original', original)
-cv2.imshow('Gray', gray)
-cv2.imshow('Unchange', unchange)
-
+img = cv2.imread(fname,cv2.IMREAD_COLOR)
+cv2.namedWindow('test',cv2.WINDOW_NORMAL)
+cv2.imshow('test',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
