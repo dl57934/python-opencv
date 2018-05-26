@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14f9dbe9-3b53-4c73-aab9-f12d5d09a8e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TrackBar.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MouseClick.py" afterPath="$PROJECT_DIR$/MouseClick.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -160,7 +158,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="976" />
@@ -370,11 +368,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526970315089</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="making TrackBar">
+      <created>1527325648080</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527325648080</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124060154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -407,7 +412,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="이미지 파일 이름은 영어로 ......" />
     <MESSAGE value="이미지 키고 색 바꾸고 복사하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="이미지 키고 색 바꾸고 복사하기" />
+    <MESSAGE value="making TrackBar" />
+    <option name="LAST_COMMIT_MESSAGE" value="making TrackBar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
