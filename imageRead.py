@@ -5,8 +5,7 @@ import matplotlib.pyplot as plt
 def showImage():
     imageFile = "images/blackPanther.jpg"
     img = cv2.imread(imageFile, cv2.IMREAD_GRAYSCALE)
-    cv2.namedWindow('test', cv2.WINDOW_NORMAL)
-    cv2.imshow('test', img)
+
 
     k = cv2.waitKey(0)
     if k == ord('c'):

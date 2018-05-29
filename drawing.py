@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
+
 img = np.zeros((512,512,3), np.uint8)
 
 cv2.line(img, (0,0), (250, 250), (255, 0, 0), 3)
